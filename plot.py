@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-x =[1,2,3,4,5]
+x =np.linspace(-3.14, 3.14,100)
 y=np.cos(x)
 plt.plot(x,y)
 plt.show()
